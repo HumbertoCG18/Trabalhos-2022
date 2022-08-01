@@ -1,9 +1,9 @@
 import java.util.Scanner;
-public class Programa02 {
+public class Programa05 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner (System.in)) {
-            int valor[] = new int[2];
-            int maior = 0;
+            int valor[] = new int[3];
+            int maior = 0, menor = 0;
             for(int i = 0; i < valor.length; i++){
             System.out.print("Digite o " +(i+1)+"º valor: ");
             valor[i] = sc.nextInt();
@@ -11,7 +11,14 @@ public class Programa02 {
             maior = valor[i];
                 }
             }
+            menor = maior;
+            for (int j = 0; j < valor.length; j++) {
+            if(valor[j] < menor){
+            menor = valor[j];
+                }
+            }
             System.out.println("Maior valor = "+ maior);
+            System.out.println("Menor valor = "+ menor);
             }
         }
 }

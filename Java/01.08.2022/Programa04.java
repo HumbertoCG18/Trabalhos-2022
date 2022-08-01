@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class Programa02 {
+public class Programa04{
     public static void main(String[] args) {
         try (Scanner sc = new Scanner (System.in)) {
-            int valor[] = new int[2];
+            int valor[] = new int[3];
             int maior = 0;
             for(int i = 0; i < valor.length; i++){
             System.out.print("Digite o " +(i+1)+"º valor: ");
