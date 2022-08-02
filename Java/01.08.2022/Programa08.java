@@ -16,7 +16,7 @@ public class Programa08 {
    System.out.printf("Operação: 1 = Adição/ 2 = Subtração/ 3 = Multiplicação/ 4 = Divisão ");
    ope = ler.nextInt();
         
-   switch (ope) {
+   switch (ope){
    case 1:
    num = num1 + num2;
    break;

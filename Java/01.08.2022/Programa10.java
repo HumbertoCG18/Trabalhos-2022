@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class Programa10 {
-
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
             int counter = 0;
